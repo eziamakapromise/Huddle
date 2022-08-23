@@ -1,0 +1,82 @@
+
+
+body{
+ background-image: url(./images/favicon-32x32.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+*{
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight: 400, 600;
+}
+
+.header img{
+ padding: 5px;
+ size: 13px;
+}
+
+
+.header{
+ display: flex;
+ color: white;
+position: absolute;
+left: 1.7rem;
+
+}
+
+
+.illus{
+position: absolute;
+top: 6em;
+left: 2.5rem;
+}
+
+.wrap-2{
+ color: #fff;
+ float: right;
+ position:fixed;
+ top: 20%;
+ left: 60%;
+}
+
+.wrap-2 h2{
+font-size: 40px;
+}
+
+.wrap-2 p{
+ letter-spacing: 1px;
+}
+
+.reg{
+ color: hsl(300, 69%, 71%);;
+ border-width: 40px;
+ padding-top: 14px;
+ padding-bottom: 14px;
+ padding-left: 50px;
+ padding-right: 50px;
+ border: none;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+ background:white;
+ cursor: pointer;
+}
+
+.reg{
+ font-size: 16px;
+}
+
+.reg:hover{
+ color: white;
+ background: hsl(300, 69%, 71%);
+}
+
+.img-logo{
+ position: absolute;
+ top: 35rem;
+ right: 5em;
+ float: right;
+}
